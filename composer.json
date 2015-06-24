@@ -1,10 +1,11 @@
 {
-    "name": "wfcreations/yii2-metronic",
-    "description": "Yii2 Metronic theme",
+    "name": "wfcreations/yii2-asset-legacy",
+    "description": "Yii2 Legacy for woldbrowser",
     "keywords": [
         "yii2",
-        "theme",
-        "metronic"
+        "respond",
+		"html5shiv",
+		"excanvas"
     ],
     "type": "yii2-extension",
     "license": "BSD",
@@ -34,7 +35,6 @@
             "dev-master": "2.0.x-dev"
         },
         "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
     }
