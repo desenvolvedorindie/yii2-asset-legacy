@@ -1,0 +1,41 @@
+{
+    "name": "wfcreations/yii2-metronic",
+    "description": "Yii2 Metronic theme",
+    "keywords": [
+        "yii2",
+        "theme",
+        "metronic"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD",
+    "support": {
+        "issues": "https://github.com/wfcreations/yii2-metronic/issues",
+        "wiki": "https://github.com/wfcreations/yii2-metronic/wiki",
+        "source": "https://github.com/wfcreations/yii2-metronic"
+    },
+    "authors": [
+        {
+            "name": "Welsiton Ferreira",
+            "email": "wfcreations@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wfcreations\\legacy\\": ""
+        }
+    },
+    "require": {
+        "bower-asset/respond": "*",
+        "bower-asset/html5shiv": "*",
+        "bower-asset/excanvas": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
