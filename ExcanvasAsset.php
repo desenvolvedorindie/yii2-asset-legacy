@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class ExcanvasAsset extends AssetBundle {
 
-    public $sourcePath = '@bower/respond';
+    public $sourcePath = '@bower/excanvas';
     public $js = [
         'excanvas.js'
     ];
