@@ -31,9 +31,6 @@
         "bower-asset/excanvas": "dev-master"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        },
         "asset-installer-paths": {
             "bower-asset-library": "vendor/bower"
         }
