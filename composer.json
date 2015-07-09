@@ -25,10 +25,11 @@
             "wfcreations\\legacy\\": ""
         }
     },
+    "minimum-stability": "dev",
     "require": {
         "bower-asset/respond": "*",
         "bower-asset/html5shiv": "*",
-        "bower-asset/excanvas": "dev-master"
+        "bower-asset/excanvas": "*"
     },
     "extra": {
         "asset-installer-paths": {
